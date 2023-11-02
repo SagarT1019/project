@@ -15,6 +15,8 @@ public class UserLoginController {
     @Autowired
     private UserLoginService userLoginService;
 
+    
+
     @GetMapping("/getall")
     public List<UserLoginLogout> getAll(){
         return userLoginService.getAll();
